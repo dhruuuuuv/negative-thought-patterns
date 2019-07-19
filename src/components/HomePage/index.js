@@ -3,16 +3,9 @@ import 'tachyons'
 
 import './styles.css'
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <div
-      className='w-100 vh-100 bg-dark-blue'
-    >
-      <div
-        className='pa3 pa5-ns ttu sans-serif f3 f1-ns washed-red fw7 ntp'
-      >
-        Cognitive Distortions
-      </div>
+    <>
       <div
         className='lh-copy f5 ph5 pv3 code washed-red'
       >
@@ -39,9 +32,8 @@ const Home = () => {
         Cognitive distortions often lie at the core of <b>CBT</b> (Cognitive Behavioural Therapy) based treatments. Understanding these patterns can help in managing and understanding your mood.
         This page outlines and explores the most common <b>10 distortions. </b>
       </div>
-    </div>
-
+    </>
   )
 }
 
-export default Home
+export default HomePage
