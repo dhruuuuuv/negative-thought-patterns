@@ -2,6 +2,7 @@ import React from 'react'
 import 'tachyons'
 
 import './styles.css'
+import DistortionList from '../DistortionList';
 
 const HomePage = () => {
   return (
@@ -10,7 +11,7 @@ const HomePage = () => {
         className='lh-copy f5 ph5 pv3 code washed-red'
       >
         <b>Negative Thought Patterns,</b> or <b>Cognitive Distortions </b> are irrational thought patterns, or biased ways of thinking,
-        which can lead to mental health issues, such as anxiety, or depression, or relationship problems.
+        which can lead to mental health issues, such as anxiety, depression, or relationship problems.
       </div>
 
       <div
@@ -32,6 +33,15 @@ const HomePage = () => {
         Cognitive distortions often lie at the core of <b>CBT</b> (Cognitive Behavioural Therapy) based treatments. Understanding these patterns can help in managing and understanding your mood.
         This page outlines and explores the most common <b>10 distortions. </b>
       </div>
+
+      <div
+        className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns light-yellow fw7'
+      >
+        List of Distortions
+      </div>
+
+      <DistortionList />
+
     </>
   )
 }

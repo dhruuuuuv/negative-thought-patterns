@@ -9,9 +9,9 @@ const TitleContainer = ({
 }) => {
   return (
     <div
-      className='w-100 vh-100 bg-dark-blue'
+    // className='w-100 vh-100 bg-dark-blue'
     >
-      <Link to='/' 
+      <Link to='/'
         style={{
           textDecoration: 'none'
         }}
