@@ -23,6 +23,11 @@ const TitleContainer = ({
         </div>
       </Link>
       {children}
+      <div
+        className='mw6 pa5 lh-copy sans-serif f6 washed-yellow center'
+      >
+        information taken from david d. burns' book, feeling good.
+      </div>
     </div>
   )
 }

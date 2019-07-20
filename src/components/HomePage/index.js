@@ -31,7 +31,7 @@ const HomePage = () => {
         className='lh-copy f5 ph5 pv3 code washed-red'
       >
         Cognitive distortions often lie at the core of <b>CBT</b> (Cognitive Behavioural Therapy) based treatments. Understanding these patterns can help in managing and understanding your mood.
-        This page outlines and explores the most common <b>10 distortions. </b>
+        This page outlines and explores the most common <b>12 distortions. </b>
       </div>
 
       <div
