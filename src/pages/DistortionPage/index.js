@@ -1,10 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const DistortionPage = props => {
+const DistortionPage = ({
+  title,
+  description
+}) => {
   return (
-    <div>
-    </div>
+    <>
+      <div
+        className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns yellow fw7'
+      >
+        {title}
+      </div>
+
+      <div
+        className='lh-copy f4 ph5 pv3 code gold'
+      >
+        {description}
+      </div>
+    </>
   )
 }
 

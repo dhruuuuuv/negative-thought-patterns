@@ -11,64 +11,76 @@ const items = [
   {
     title: 'All-Or-Nothing Thinking',
     description: `Everything has to fall into 2 categories - right or wrong. \n You're only content with absolute perfection, or expect this from others.`,
-    icon: <WiMoonAltFirstQuarter />
+    icon: <WiMoonAltFirstQuarter />,
+    link: '/distortion/all-nothing-thinking'
   },
   {
     title: 'Over-generalization',
     description: `Blowing a single negative event out of proportion, so that you see it in a long line of never-ending defeats.`,
-    icon: <FiRotateCw />
+    icon: <FiRotateCw />,
+    link: ''
   },
   {
     title: 'Mental Filter',
     description: `Becoming fixated on a single bad thing that's happening, so that everything else gets ignored,
           and your view becomes darkened.`,
-    icon: <FiEye />
+    icon: <FiEye />,
+    link: ''
   },
   {
     title: 'Disqualifying the Positive',
     description: `Positive things that happen are dismissed, due to a belief that they don't count - leaving only negatives.`,
-    icon: <FiPlus />
+    icon: <FiPlus />,
+    link: ''
   },
   {
     title: 'Jumping to Conclusions',
     description: `Positive things that happen are dismissed, due to a belief that they don't count - leaving only negatives.`,
-    icon: <MdDirectionsRun />
+    icon: <MdDirectionsRun />,
+    link: ''
   },
   {
     title: 'Mind Reading',
     description: `Thinking that you know what someone else is thinking, often negatively, without any evidence.`,
-    icon: <FaBrain />
+    icon: <FaBrain />,
+    link: ''
   },
   {
     title: 'Fortune Teller',
     description: `Anticipating that things will turn out badly in the future, and you feel like this is a certain fact.`,
-    icon: <GiCrystalBall />
+    icon: <GiCrystalBall />,
+    link: ''
   },
   {
     title: 'Magnification / Minification',
     description: `Exaggerating the gravity of a mistake you've made, or minimise positive things, such as your own positive traits.`,
-    icon: <MdSearch />
+    icon: <MdSearch />,
+    link: ''
   },
   {
     title: 'Emotional Reasoning',
     description: `Assuming that your negative emotions reflect how things actually are - 'I feel it, so it's true'.`,
-    icon: <FiHeart />
+    icon: <FiHeart />,
+    link: ''
   },
   {
     title: 'Should Statements',
     description: `Trying to motivate yourself with 'shoulds' and 'shouldn't', as if you have to force yourself to do something,
     leading to guilty feelings when things don't work out.`,
-    icon: <MdTrendingDown />
+    icon: <MdTrendingDown />,
+    link: ''
   },
   {
     title: 'Labelling and Mislabelling',
     description: `An extreme form of overgeneralisation - an error leads you to label yourself: e.g. 'I'm a loser', or using highly emotional language.`,
-    icon: <MdLabelOutline />
+    icon: <MdLabelOutline />,
+    link: ''
   },
   {
     title: 'Personalisation of Events',
     description: `Seeing yourself as the cause of negative events that you are not responsible for.`,
-    icon: <FiUser />
+    icon: <FiUser />,
+    link: ''
   },
 ]
 
@@ -81,6 +93,7 @@ const DistortionList = () => {
         <Item
           title={item.title}
           description={item.description}
+          link={item.link}
           color={index % 2 === 0 ? 'yellow' : 'gold'}
         >
           {item.icon}

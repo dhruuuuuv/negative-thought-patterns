@@ -1,14 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import NotFoundPage from '../NotFoundPage';
+import DistortionPage from '../DistortionPage';
 
 const DistortionsPage = ({
   match,
 }) => {
-  if (match.params.distortion === 'black-white-thinking') {
+  if (match.params.distortion === 'all-nothing-thinking') {
     return (
-      <div>
-      </div>
+      <DistortionPage
+        title='All-Or-Nothing Thinking'
+      />
     )
   } else {
     return <NotFoundPage />
@@ -17,7 +19,6 @@ const DistortionsPage = ({
 }
 
 DistortionsPage.propTypes = {
-
 }
 
 export default DistortionsPage
