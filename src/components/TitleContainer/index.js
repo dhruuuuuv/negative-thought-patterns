@@ -17,7 +17,7 @@ const TitleContainer = ({
         }}
       >
         <div
-          className='pa3 pa5-ns ttu sans-serif f3 f1-ns washed-red fw7 ntp'
+          className='center mw7 pa3 pa5-ns ttu sans-serif f3 f1-ns washed-red fw7 ntp'
         >
           {title}
         </div>
