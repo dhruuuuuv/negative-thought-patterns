@@ -4,13 +4,15 @@ import 'tachyons'
 import './styles.css'
 import TitleContainer from '../TitleContainer'
 import Main from '../Main';
+import ScrollToTop from '../ScrollToTop';
 
 const App = () => {
   return (
-    <TitleContainer>
-      <Main />
-    </TitleContainer>
-
+    <ScrollToTop>
+      <TitleContainer>
+        <Main />
+      </TitleContainer>
+    </ScrollToTop>
   )
 }
 

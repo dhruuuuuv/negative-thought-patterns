@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 
 const DistortionPage = ({
   title,
-  description
+  description,
+  example,
+  help
 }) => {
   return (
     <>
@@ -18,7 +20,38 @@ const DistortionPage = ({
       >
         {description}
       </div>
+      {example &&
+        <>
+          <div
+            className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns green fw7'
+          >
+            EXAMPLE
+      </div>
+
+          <div
+            className='lh-copy f4 ph5 pv3 code light-green'
+          >
+            {example}
+          </div>
+        </>
+      }
+      {help &&
+        <>
+          <div
+            className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns light-red fw7'
+          >
+            How to Help
+      </div>
+
+          <div
+            className='lh-copy f4 ph5 pv3 code washed-red'
+          >
+            {help}
+          </div>
+        </>
+      }
     </>
+
   )
 }
 
