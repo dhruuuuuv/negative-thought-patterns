@@ -12,15 +12,15 @@ const Item = ({
 }) => {
   return (
     <div
-      className={`flex items-center align-center pa3 ${color}`}
+      className={`flex flex-wrap flex-nowrap-ns items-center align-center pa2 pa3-ns ${color}`}
     >
       <div
-        className='w-10 pa1 ttu sans-serif f2-ns fw7 pl5 glow'
+        className='w-100 w-10-l pa1 ttu sans-serif f2-ns fw7 pl2 pl5-l glow'
       >
         {children}
       </div>
       <div
-        className='w-30 pa1 ttu sans-serif f3-ns fw7 pl5 grow pointer'
+        className='w-100 w-30-l pa1 ttu sans-serif f3-ns fw7 pl2 pl5-l grow pointer'
       >
         <Link
           to={link}
@@ -33,7 +33,7 @@ const Item = ({
         </Link>
       </div>
       <div
-        className='w-60 pa1 code ttl f4-ns pl5 w6'
+        className='w-100 w-60-l pa1 code ttl f4-ns pl2 pl5-l w6'
       >
         {description}
       </div>

@@ -15,10 +15,10 @@ const items = [
     link: '/distortion/all-nothing-thinking'
   },
   {
-    title: 'Over-generalization',
+    title: 'Over-generalisation',
     description: `Blowing a single negative event out of proportion, so that you see it in a long line of never-ending defeats.`,
     icon: <FiRotateCw />,
-    link: '/distortion/over-generalization'
+    link: '/distortion/over-generalisation'
   },
   {
     title: 'Mental Filter',
@@ -31,11 +31,11 @@ const items = [
     title: 'Disqualifying the Positive',
     description: `Positive things that happen are dismissed, due to a belief that they don't count - leaving only negatives.`,
     icon: <FiPlus />,
-    link: '/distortion/disqualifying--positive'
+    link: '/distortion/disqualifying-positive'
   },
   {
     title: 'Jumping to Conclusions',
-    description: `Drawing negative conclusions with little to no evidence of assumptions.`,
+    description: `Drawing negative conclusions with little to no evidence of assumptions - often works through mind reading, or fortune telling.`,
     icon: <MdDirectionsRun />,
     link: '/distortion/jumping-to-conclusions'
   },
@@ -88,9 +88,10 @@ const items = [
 
 const DistortionList = () => {
   return (
-    <main className="ph6 pb6 pa4 center flex flex-column items-center justify-center">
+    <main className="pa-2 ph6-ns pb6-ns pa4-ns center flex flex-column flex-wrap flex-nowrap-ns items-center justify-center">
       {items.map((item, index) => (
         <Item
+          key={index}
           title={item.title}
           description={item.description}
           link={item.link}

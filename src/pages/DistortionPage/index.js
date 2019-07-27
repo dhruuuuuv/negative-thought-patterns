@@ -10,26 +10,26 @@ const DistortionPage = ({
   return (
     <>
       <div
-        className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns yellow fw7'
+        className='pa2 pa5-ns ph5-ns ph3 ttu sans-serif f4 f2-ns yellow fw7'
       >
         {title}
       </div>
 
       <div
-        className='lh-copy f4 ph5 pv3 code gold'
+        className='lh-copy f4 ph3 ph5-ns pv3 code gold'
       >
         {description}
       </div>
       {example &&
         <>
           <div
-            className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns green fw7'
+            className='pa2 pa5-ns ph5-ns ph3 ttu sans-serif f4 f2-ns green fw7'
           >
             EXAMPLE
       </div>
 
           <div
-            className='lh-copy f4 ph5 pv3 code light-green'
+            className='lh-copy f4 ph3 ph5-ns pv3 code light-green'
           >
             {example}
           </div>
@@ -38,13 +38,13 @@ const DistortionPage = ({
       {help &&
         <>
           <div
-            className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns light-red fw7'
+            className='pa2 pa5-ns ph5-ns ph3 ttu sans-serif f4 f2-ns light-red fw7'
           >
             How to Help
       </div>
 
           <div
-            className='lh-copy f4 ph5 pv3 code washed-red'
+            className='lh-copy f4 ph3 ph5-ns pv3 code washed-red'
           >
             {help}
           </div>

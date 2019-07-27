@@ -6,7 +6,7 @@ import DistortionsPage from '../../pages/DistortionsPage';
 
 const Main = () => {
   return (
-    <main>
+    <main class='pa2 pa0-ns'>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/distortion/:distortion' component={DistortionsPage} />

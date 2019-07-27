@@ -124,7 +124,7 @@ const DistortionsPage = ({
         }
         example={
           `
-          You arrive to work late, and you 'know' that everyone is thinking about you being late, about how you're unreliable.
+          You arrive to work late, and you 'know' that everyone is thinking about you being late, about how you are unreliable.
           You spend the rest of the day being snappy with everyone because you're annoyed at them for thinking that. 
           We often do this subconsciously, so we can find oursevles in a bad mood with others, when we assume we know what they're thinking.
           `
@@ -156,17 +156,12 @@ const DistortionsPage = ({
         }
         example={
           `
-          You 
+          
           `
         }
         help={
           `
-          As with other distortions, identifying the thoughts can be helpful here.
-          Try writing down what you think other people are thinking, which can sometimes immediately lead you to seeing the problem with the logic.
-          What evidence is there for this assumption?
-          What are the costs and benefits of thinking this thought?
-          Is it leading to increased anxiety - perhaps it would be better to try and let it go. \n
-          It can be helpful to 'test out' the thought - or act against the thought. If you think someone is unfriendly, go and say hello and see how they react.
+          
           `
         }
       />
