@@ -9,7 +9,7 @@ const HomePage = () => {
     <>
 
       <div
-        className='lh-copy f6 ph3 ph5-ns pv3 code grey'
+        className='lh-copy f6 ph3 ph5-ns pv3 code moon-gray'
       >
         currently a work in progress.
       </div>
