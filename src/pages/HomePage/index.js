@@ -7,6 +7,13 @@ import DistortionList from '../../components/DistortionList';
 const HomePage = () => {
   return (
     <>
+
+      <div
+        className='lh-copy f6 ph3 ph5-ns pv3 code grey'
+      >
+        currently a work in progress.
+      </div>
+
       <div
         className='lh-copy f5 ph3 ph5-ns pv3 code washed-red'
       >
