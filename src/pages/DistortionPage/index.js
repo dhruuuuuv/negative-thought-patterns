@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { addLineBreaks } from '../../helpers'
 
 const DistortionPage = ({
   title,
@@ -18,7 +19,7 @@ const DistortionPage = ({
       <div
         className='lh-copy f4 ph3 ph5-ns pv3 code gold'
       >
-        {description}
+        {addLineBreaks(description)}
       </div>
       {example &&
         <>
@@ -31,7 +32,7 @@ const DistortionPage = ({
           <div
             className='lh-copy f4 ph3 ph5-ns pv3 code light-green'
           >
-            {example}
+            {addLineBreaks(example)}
           </div>
         </>
       }
@@ -46,7 +47,7 @@ const DistortionPage = ({
           <div
             className='lh-copy f4 ph3 ph5-ns pv3 code washed-red'
           >
-            {help}
+            {addLineBreaks(help)}
           </div>
         </>
       }
