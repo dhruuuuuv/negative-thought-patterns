@@ -20,7 +20,7 @@ const Item = ({
         {children}
       </div>
       <div
-        className='w-100 w-30-l pa1 ttu sans-serif f3-ns fw7 pl2 pl5-l grow pointer'
+        className='w-100 w-30-l pa1 ttu sans-serif f3-ns fw7 pl2 pl5-l grow pointer underline'
       >
         <Link
           to={link}
