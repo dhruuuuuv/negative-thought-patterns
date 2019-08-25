@@ -8,11 +8,11 @@ const HomePage = () => {
   return (
     <>
 
-      <div
+      {/* <div
         className='lh-copy f6 ph3 ph5-ns pv3 code moon-gray'
       >
         currently a work in progress.
-      </div>
+      </div> */}
 
       <div
         className='lh-copy f5 ph3 ph5-ns pv3 code washed-red'
@@ -40,6 +40,12 @@ const HomePage = () => {
         className='pa5 ph5-ns ph3 ttu sans-serif f4 f2-ns light-yellow fw7'
       >
         List of Distortions
+      </div>
+
+      <div
+        className='lh-copy f6 ph3 ph5-ns pv3 code washed-yellow'
+      >
+        click on a distortion to learn more!
       </div>
 
       <DistortionList />
